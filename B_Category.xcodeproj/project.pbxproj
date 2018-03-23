@@ -14,6 +14,7 @@
 		5CB8A0BB2063A10000FE3B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A0BA2063A10000FE3B27 /* Assets.xcassets */; };
 		5CB8A0BE2063A10000FE3B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A0BC2063A10000FE3B27 /* LaunchScreen.storyboard */; };
 		5CB8A0C12063A10000FE3B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A0C02063A10000FE3B27 /* main.m */; };
+		5CB8A0CA2063A28700FE3B27 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A0C92063A28700FE3B27 /* CTMediator+B.m */; };
 		7C7AE91AA13B4F2CEB8EE43B /* libPods-B_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CDA991EF51772B36F52284 /* libPods-B_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		5CB8A0BD2063A10000FE3B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB8A0BF2063A10000FE3B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB8A0C02063A10000FE3B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB8A0C82063A28700FE3B27 /* CTMediator+B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
+		5CB8A0C92063A28700FE3B27 /* CTMediator+B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
 		70CDA991EF51772B36F52284 /* libPods-B_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-B_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +87,7 @@
 		5CB8A0AD2063A10000FE3B27 /* B_Category */ = {
 			isa = PBXGroup;
 			children = (
+				5CB8A0C72063A1D700FE3B27 /* B_Category */,
 				5CB8A0AE2063A10000FE3B27 /* AppDelegate.h */,
 				5CB8A0AF2063A10000FE3B27 /* AppDelegate.m */,
 				5CB8A0B12063A10000FE3B27 /* ViewController.h */,
@@ -94,6 +98,15 @@
 				5CB8A0BF2063A10000FE3B27 /* Info.plist */,
 				5CB8A0C02063A10000FE3B27 /* main.m */,
 				5CB8A0B72063A10000FE3B27 /* B_Category.xcdatamodeld */,
+			);
+			path = B_Category;
+			sourceTree = "<group>";
+		};
+		5CB8A0C72063A1D700FE3B27 /* B_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5CB8A0C82063A28700FE3B27 /* CTMediator+B.h */,
+				5CB8A0C92063A28700FE3B27 /* CTMediator+B.m */,
 			);
 			path = B_Category;
 			sourceTree = "<group>";
@@ -227,6 +240,7 @@
 				5CB8A0B02063A10000FE3B27 /* AppDelegate.m in Sources */,
 				5CB8A0C12063A10000FE3B27 /* main.m in Sources */,
 				5CB8A0B92063A10000FE3B27 /* B_Category.xcdatamodeld in Sources */,
+				5CB8A0CA2063A28700FE3B27 /* CTMediator+B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
